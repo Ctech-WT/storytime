@@ -1,0 +1,671 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Story time</title>
+	<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@0;1&display=swap" rel="stylesheet">
+<style>
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.content-wd {
+    margin: auto;
+    width: 1200px;
+}
+.st-wrapper {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav1 {
+    display: flex;
+    color: #090808;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+}
+.navlist {
+    color: #060606;
+    text-decoration: none;
+    padding: 16.5px;
+    font-family:font-family: 'PT Serif', serif;
+    color: #0c0b0b;
+    font-size: 18.71px;
+    font-weight: 700;
+}
+.navicon1 {
+    padding: 30.5px;
+}
+.banner1 {
+    width: 100%;
+    height: 740px;
+}
+.bannergradient {
+    position: relative;
+}
+.bannergradient::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: -webkit-linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    background-image: -moz-linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    background-image: -o-linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    background-image: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+}
+.bannerpara {
+    color: #F7F3F3;
+    position: absolute;
+    top: 249px;
+    left: 148px;
+}
+.bannerpara1 {
+    position: relative;
+}
+.bannerper {
+    background-color: rgba(33, 90, 139, 0.59);
+    padding: 21px;
+    padding: 9px;
+    width: 198px;
+}
+.aboutus {
+    font-family:font-family: 'PT Serif', serif;
+    color: #0c0b0b;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.aboutus:before {
+    content: "";
+    width: 8px;
+    height: 26px;
+    background-color: #09497f;
+    margin-right: 10px;
+    display: inline-block;
+}
+.aboutbanner {
+    width: 1240px;
+    height: 527px;
+    border-radius: 22px;
+    background-color: rgba(9, 73, 127, 0.9);
+    display: flex;
+    column-gap: 24px;
+    justify-content: center;
+}
+.aboutimg {
+    width: 468px;
+    height: 706px;
+}
+.abouttext {
+    font-family:font-family: 'PT Serif', serif;
+    color: #fbfafa;
+    font-size: 21.4px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 12px;
+}
+.aboutbutton {
+    border-radius: 22px;
+    background-color: rgba(9, 73, 127, 0.9);
+    padding: 8px 17px;
+    width: 252px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    display: block;
+    text-decoration: none;
+    margin-left: 160px;
+}
+.content1 {
+    padding-top: 35px;
+}
+.recommended {
+    padding-top: 180px;
+}
+.recimg {
+    width: 100%;
+    height: 444px;
+}
+.recarrow {
+    width: 41px;
+    height: 68px;
+    margin-left: 90px;
+    margin-top: 200px;
+}
+.rearrow1 {
+    width: 41px;
+    height: 68px;
+    margin-left: 1198px;
+    margin-top: 200px;
+}
+.totalcard {
+    display: flex;
+}
+.card1rec {
+    width: 339px;
+    height: 703px;
+    background-color: #ffffff;
+    box-shadow: 0px 11px 21.87px 5.13px rgba(0, 0, 0, 0.39);
+    position: absolute;
+    top: -140px;
+    left: 0px;
+}
+.card1img {
+    width: 307px;
+    height: 402px;
+    margin-left: 16px;
+    margin-top: 16px;
+}
+.card1point {
+    font-family: AcuminConcept;
+    color: #010000;
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 35px;
+    margin-top: 18px;
+}
+.card1para {
+    text-align: center;
+}
+.allcard {
+    position: relative;
+}
+.card1star {
+    margin-left: 71px;
+    margin-top: -30px;
+}
+.card1paper {
+    margin-left: 35px;
+    margin-top: 12px;
+}
+.card1rupe {
+    margin-left: 35px;
+    margin-top: 24px;
+}
+.card1rs {
+    margin-left: 82px;
+    margin-top: -44px;
+    font-family:font-family: 'PT Serif', serif;
+    color: #010000;
+    font-size: 36px;
+    font-weight: 400;
+}
+.card1dele {
+    font-family:font-family: 'PT Serif', serif;
+    color: #0c0b0b;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+.youmay {
+    padding-top: 150px;
+}
+.youmayalso {
+    margin-top: 187px;
+    margin-left: 161px;
+}
+.youmayrec {
+    background-color: #ffffff;
+    box-shadow: 0px 11px 21.87px 5.13px rgba(0, 0, 0, 0.29);
+    width: 217px;
+    height: 393px;
+    position: absolute;
+}
+.youmayimg {
+    margin-left: 16px;
+    margin-top: 16px;
+    width: 187px;
+    height: 287px;
+}
+.youmaypara {
+    text-align: center;
+}
+.youmaystar {
+    margin-left: 30px;
+    margin-top: 6px;
+}
+.card2rupee {
+    margin-top: 12px;
+    margin-left: 20px;
+}
+.card2rs {
+    margin-left: 61px;
+    margin-top: -28px;
+    font-family:font-family: 'PT Serif', serif;
+    color: #010000;
+    font-size: 21.4px;
+    font-weight: 400;
+}
+.total2card {
+    display: flex;
+}
+.youmayrec2 {
+    background-color: #ffffff;
+    box-shadow: 0px 11px 21.87px 5.13px rgba(0, 0, 0, 0.29);
+    width: 217px;
+    height: 393px;
+    margin-top: 441px;
+}
+.youmayimg2 {
+    margin-left: 16px;
+    margin-top: 16px;
+    width: 187px;
+    height: 287px;
+}
+.youmaypara2 {
+    text-align: center;
+}
+.youmaystar1 {
+    margin-left: 55px;
+    margin-top: 6px;
+}
+.card3rupee {
+    margin-top: 12px;
+    margin-left: 20px;
+}
+.card3rs {
+    margin-left: 61px;
+    margin-top: -28px;
+    font-family:font-family: 'PT Serif', serif;
+    color: #010000;
+    font-size: 21.4px;
+    font-weight: 400;
+}
+.total3card {
+    display: flex;
+	margin-bottom: 107px;
+}
+.viewrec {
+    width: 148px;
+    height: 47px;
+    background-color: rgba(1, 37, 66, 0.92);
+    margin-left: 643px;
+    margin-top: 46px;
+    margin-top: 35px;
+}
+.viewall {
+    font-family: BookmanOldStyle;
+    color: #ffffff;
+    font-size: 27.98px;
+    font-weight: 400;
+    margin-left: 652px;
+    margin-top: -38px;
+	background-color: #095792;
+	padding: 12px;
+	text-decoration: none;
+	margin-top: 50px;
+}
+.footer {
+    height: 531px;
+    background-color: rgba(9, 73, 127, 0.9);
+    margin-top: 70px;
+    padding-top: 51px;
+}
+.footerpara {
+    display: flex;
+    flex-direction: column;
+}
+.footerwrap {
+    display: flex;
+}
+.footersent {
+    list-style: none;
+}
+.footersent li {
+    font-family:font-family: 'PT Serif', serif;
+    color: #faf5f5;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+}
+.footerpara h3 {
+    font-family: BookmanOldStyle;
+    color: #fdfbfb;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 12px;
+    margin-right: 30px;
+}
+.emailbox {
+    width: 250px;
+    height: 54px;
+    background-color: #fdfafa;
+    padding-left: 25px;
+    margin-top: 42px;
+    margin-left: 20px;
+}
+.subscribebox {
+    width: 250px;
+    height: 60px;
+    background-color: rgba(1, 37, 66, 0.67);
+    margin-left: 48px;
+    margin-top: 9px;
+    color: #FBF8F8;
+    margin-left: 20px;
+}
+.footerend {
+    width: 100%;
+    height: 188px;
+    background-color: #012542;
+    margin-top: 85px;
+	padding-top: 50px;
+}
+.footerapp1 {
+    display: flex;
+    justify-content: space-between;
+}
+	.footerapp1 span{
+		    font-family:font-family: 'PT Serif', serif;
+    color: #faf5f5;
+    font-size: 18px;
+    font-weight: 400;
+	}
+	.footerapp{
+		display: flex;
+		justify-content: space-around;
+		 width: 214px;
+	}
+</style>
+</head>
+
+<body>
+<div class="st-wrapper">
+  <div class="header content-wd">
+	  
+	  <img src="images/Img/logo.png" width="125px" height="96%" alt/>
+    <ul class="nav1">
+      <li><a class="navlist" href="#">HOME</a></li>
+      <li><a class="navlist" href="#">SHOPS</a></li>
+      <li><a  class="navlist" href="#">CATEGORIES</a></li>
+      <li><a  class="navlist" href="#">FIND US</a></li>
+    </ul>
+	  
+    <div class="navicon"> 
+		<img class="navicon1" src="images/loupe.png"  width="31px" height="31px" alt=""> 
+		<img class="navicon1" src="images/310869.png"  width="31px" height="31px" alt=""> 
+		<img class="navicon1" src="images/bag.png"  width="31px" height="31px" alt="">
+	  </div>
+	  
+  </div>
+</div>
+<div>
+  <div class="bannerpara1">
+	  
+    <div class="bannergradient"> 
+		<img class="banner1" src="images/banner_image.png" alt>
+	  </div>
+	  
+    <div class="bannerpara">
+      <h1> GET THE RIGHT BOOKS<br>FOR YOU;</h1>
+      <p class="bannerper">60%-70% off on All Books</p>
+    </div>
+  </div>
+</div>
+	
+<div class="content-wd content1">
+  <h2 class="aboutus"> ABOUT US</h2>
+  <div class="aboutbanner">
+    <div > 
+		<img class="aboutimg" src="images/Img/alex_north.png" alt> 
+	  </div>
+    <div class="abouttext">
+      <h3>Hi there and welcome to my website.</h3>
+      <p>I&#8217;m Sreekanth the founder of story tales website i found this website to spread knowlege for our future generation i am one of the producers of novel transporting all around the world.I hope you enjoy our different types of brand and story</p>
+      <p>And watch out for our the Blu-Ray and DVD release of our new patterns of stoty and brand like romantic, thriller, fantasy,horror. Including childrens story and adult books according to our industry trends. </p>
+      <a class="aboutbutton" href="#">BROWSE OUR BOOKS</a> 
+	  </div>
+  </div>
+  <div class="recommended">
+    <h2 class="aboutus"> RECOMMENDED</h2>
+  </div>
+</div>
+<img  class="recimg st-wrapper" src="images/Img/_2_banner_novels.png" alt="" width="1366" height="444">
+<div class="content-wd">
+	
+  <div class="totalcard">
+    <div class="allcard content-wd">
+      <div class="card1rec">
+		  <img class="card1img" src="images/Img/main-qimg-6a214e053478ac87cd0cf1ac53dcecbd.png" alt>
+        <h3 class="card1para"> THE GIRL IN ROOM 105</h3>
+        <p class="card1point"> 5.0</p>
+        <div class="card1star">
+			<img src="images/Img/star.png" alt="" width="28" height="28">
+			<img src="images/Img/star.png" alt="" width="28" height="28"> 
+			<img src="images/Img/star.png" alt="" width="28" height="28">
+			<img src="images/Img/star.png" alt="" width="28" height="28"> 
+			<img src="images/Img/star.png" alt="" width="28" height="28"> 
+		  </div>
+        <p class="card1paper"> paper black</p>
+        <img class="card1rupe" src="images/Img/rupee_icon.png" alt="">
+        <h3 class="card1rs"> 149.00</h3>
+        <h3 class="card1dele">Free Delivery</h3>
+      </div>
+    </div>
+	  
+    <div class="allcard content-wd">
+      <div class="card1rec"> 
+		  <img class="card1img" src="images/Img/1-The-Kite-Runner-Riverhead-Edition.png" alt>
+        <h3 class="card1para"> THE KITE RUNNER 105</h3>
+        <p class="card1point"> 4.7</p>
+        <div class="card1star">
+			<img src="images/Img/star.png" alt="" width="28" height="28"> 
+			<img src="images/Img/star.png" alt="" width="28" height="28">
+			<img src="images/Img/star.png" alt="" width="28" height="28"> 
+			<img src="images/Img/star.png" alt="" width="28" height="28"> 
+			<img src="images/Img/star.png" alt="" width="28" height="28">
+		  </div>
+        <p class="card1paper"> hard black</p>
+        <img class="card1rupe" src="images/Img/rupee_icon.png" alt="">
+        <h3 class="card1rs"> 199.00</h3>
+        <h3 class="card1dele">250.00 Delivery</h3>
+      </div>
+    </div>
+    <div class="allcard content-wd">
+      <div class="card1rec">
+		  <img class="card1img" src="images/Img/748a26540af6e38dd16ae3941f8e2750.png" alt>
+        <h3 class="card1para"> THE OTHERS</h3>
+        <p class="card1point"> 4.7</p>
+        <div class="card1star"> 
+			<img src="images/Img/star.png" alt="" width="28" height="28">
+			<img src="images/Img/star.png" alt="" width="28" height="28">
+			<img src="images/Img/star.png" alt="" width="28" height="28"> 
+			<img src="images/Img/star.png" alt="" width="28" height="28">
+		  </div>
+        <p class="card1paper"> paper black</p>
+        <img class="card1rupe" src="images/Img/rupee_icon.png" alt="">
+        <h3 class="card1rs"> 249.00</h3>
+        <h3 class="card1dele">Free Delivery</h3>
+      </div>
+    </div>
+  </div>
+</div>
+<img class="recarrow" src="images/Img/arrow_left.png" alt=""> 
+	<img class="rearrow1" src="images/Img/arrow_right.png" alt="">
+<div class="youmayalso">
+  <div class="youmay">
+    <h2 class="aboutus"> You may also like</h2>
+  </div>
+</div>
+<div class="total2card content-wd">
+  <div class="content-wd">
+    <div class="youmayrec">
+		<img class="youmayimg" src="images/Img/card_the_truth_in_our_lies.png" alt="">
+      <h3 class="youmaypara"> The truth in our lies</h3>
+      <div class="youmaystar">
+		  <img src="images/Img/1040230_copy_14.png" alt=""> 
+		  <img src="images/Img/1040230_copy_14.png" alt="">
+		  <img src="images/Img/1040230_copy_14.png" alt=""> 
+		  <img src="images/Img/1040230_copy_14.png" alt=""> 
+		</div>
+      <img class="card2rupee" src="images/Img/rupee_icon_copy.png" alt="">
+      <h3 class="card2rs">199.00</h3>
+    </div>
+  </div>
+	
+  <div class="content-wd">
+    <div class="youmayrec">
+		<img class="youmayimg" src="images/Img/card_the_shape_of_snakes.png" alt="">
+      <h3 class="youmaypara"> The shapes of snakes</h3>
+      <div class="youmaystar"> 
+		  <img src="images/Img/1040230_copy_14.png" alt=""> 
+		  <img src="images/Img/1040230_copy_14.png" alt="">
+		  <img src="images/Img/1040230_copy_14.png" alt="">
+		  <img src="images/Img/1040230_copy_14.png" alt=""> 
+		</div>
+      <img class="card2rupee" src="images/Img/rupee_icon_copy.png" alt="">
+      <h3 class="card2rs">199.00</h3>
+    </div>
+  </div>
+	
+  <div class="content-wd">
+    <div class="youmayrec">
+		<img class="youmayimg" src="images/Img/card_the_friend_of_the_family.png" alt="">
+      <h3 class="youmaypara"> A friend of the family</h3>
+      <div class="youmaystar"> 
+		  <img src="images/Img/1040230_copy_14.png" alt=""> 
+		  <img src="images/Img/1040230_copy_14.png" alt="">
+		  <img src="images/Img/1040230_copy_14.png" alt="">
+		  <img src="images/Img/1040230_copy_14.png" alt="">
+		  <img src="images/Img/1040230_copy_14.png" alt="">
+		</div>
+      <img class="card2rupee" src="images/Img/rupee_icon_copy.png" alt="">
+      <h3 class="card2rs">199.00</h3>
+    </div>
+  </div>
+  <div class="content-wd">
+    <div class="youmayrec">
+		<img class="youmayimg" src="images/Img/_cardEnd_of_Lonliness.png" alt="">
+      <h3 class="youmaypara"> The end of loneliness</h3>
+      <div class="youmaystar"> 
+		  <img src="images/Img/1040230_copy_14.png" alt=""> 
+		  <img src="images/Img/1040230_copy_14.png" alt=""> 
+		  <img src="images/Img/1040230_copy_14.png" alt="">
+		  <img src="images/Img/1040230_copy_14.png" alt="">
+		</div>
+      <img class="card2rupee" src="images/Img/rupee_icon_copy.png" alt="">
+      <h3 class="card2rs">199.00</h3>
+    </div>
+  </div>
+</div>
+<div class="total3card content-wd">
+  <div class="content-wd">
+    <div class="youmayrec2">
+		<img class="youmayimg2" src="images/Img/card_the_silent_patient.png" alt="">
+      <h3 class="youmaypara2"> The Silent Patient</h3>
+      <div class="youmaystar1">
+		  <img src="images/Img/1040230_copy_14.png" alt=""> 
+		  <img src="images/Img/1040230_copy_14.png" alt=""> 
+		  <img src="images/Img/1040230_copy_14.png" alt=""> 
+		  <img src="images/Img/1040230_copy_14.png" alt="">
+		</div>
+      <img class="card3rupee" src="images/Img/rupee_icon_copy.png" alt="">
+      <h3 class="card3rs">199.00</h3>
+    </div>
+  </div>
+	
+  <div class="content-wd">
+    <div class="youmayrec2">
+		<img class="youmayimg2" src="images/Img/card_trash_lands.png" alt="">
+      <h3 class="youmaypara2"> Trash Lands</h3>
+      <div class="youmaystar1"> 
+		  <img src="images/Img/1040230_copy_14.png" alt="">
+		  <img src="images/Img/1040230_copy_14.png" alt="">
+		  <img src="images/Img/1040230_copy_14.png" alt="">
+		  <img src="images/Img/1040230_copy_14.png" alt="">
+		</div>
+      <img class="card3rupee" src="images/Img/rupee_icon_copy.png" alt="">
+      <h3 class="card3rs">199.00</h3>
+    </div>
+  </div>
+	
+  <div class="content-wd">
+    <div class="youmayrec2">
+		<img class="youmayimg2" src="images/Img/_cardthe_orphan.png" alt="">
+      <h3 class="youmaypara2"> The Orphan</h3>
+      <div class="youmaystar1">
+		  <img src="images/Img/1040230_copy_14.png" alt="">
+		  <img src="images/Img/1040230_copy_14.png" alt="">
+		  <img src="images/Img/1040230_copy_14.png" alt=""> 
+		  <img src="images/Img/1040230_copy_14.png" alt=""> 
+		</div>
+      <img class="card3rupee" src="images/Img/rupee_icon_copy.png" alt="">
+      <h3 class="card3rs">199.00</h3>
+    </div>
+  </div>
+  <div class="content-wd">
+    <div class="youmayrec2">
+		<img class="youmayimg2" src="images/Img/card_the_deadth_house.png" alt="">
+      <h3 class="youmaypara2"> The death house</h3>
+      <div class="youmaystar1"> 
+		  <img src="images/Img/1040230_copy_14.png" alt="">
+		  <img src="images/Img/1040230_copy_14.png" alt="">
+		  <img src="images/Img/1040230_copy_14.png" alt=""> 
+		  <img src="images/Img/1040230_copy_14.png" alt="">
+		</div>
+      <img class="card3rupee" src="images/Img/rupee_icon_copy.png" alt="">
+      <h3 class="card3rs">99.00</h3>
+    </div>
+  </div>
+</div>
+<a href="#" class="viewall"> VIEW ALL</a>
+<div class="footer ">
+  <div class="footerwrap content-wd">
+    <div class="footerpara">
+      <h3> Quick links</h3>
+      <ul class="footersent">
+        <li>Terms of service</li>
+        <li>privacy policy</li>
+        <li>Return policy</li>
+        <li>Request Book</li>
+        <li>Bulk purchase</li>
+        <li>Shipping details</li>
+      </ul>
+    </div>
+    <div class="footerpara">
+      <h3> Stay connect</h3>
+      <ul class="footersent">
+        <li>Join our STORY TIME BOOKS</li>
+        <li>by signing up our email</li>
+        <li>MEWS LETTER and assured</li>
+        <li>discount code for next purchase</li>
+        <li>and sales alert</li>
+      </ul>
+    </div>
+    <div style="display: flex; flex-direction: column; margin-right: 51px;">
+      <input type="search" placeholder="Email address" class="emailbox">
+      <button class="subscribebox">SUBSCRIBE</button>
+    </div>
+    <div class="footerpara">
+      <h3> Contact us</h3>
+      <ul class="footersent">
+        <li>Email:</li>
+        <li>STORY TIME@gmail.com</li>
+        <li>Whatsapp +91 8943925294</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footerend">
+    <div class="content-wd footerapp1">
+		<span>@copyrightstorytime 2022 </span>
+      <div class="footerapp "> 
+		  <img src="images/Img/whatsapp.png" alt=""> 
+		  <img src="images/Img/facebook.png" alt=""> 
+		  <img src="images/Img/instagram_(1).png" alt=""> 
+		  <img src="images/Img/twitter.png" alt=""> 
+		</div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

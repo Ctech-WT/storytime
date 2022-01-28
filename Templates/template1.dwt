@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Story time</title>
+<!-- TemplateEndEditable -->
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link href="../styles/storytime-style1.css" rel="stylesheet" type="text/css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div class="st-wrapper">
+  <div class="header content-wd"> <img src="../images/logo.png" width="125" height="96" alt=""/>
+    <ul class="nav1">
+      <li><a class="navlist" href="#">HOME</a></li>
+      <li><a class="navlist" href="#">SHOPS</a></li>
+      <li><a  class="navlist" href="#">CATEGORIES</a></li>
+      <li><a  class="navlist" href="#">FIND US</a></li>
+    </ul>
+    <div class="navicon"> <img class="navicon1" src="../images/loupe.png"  width="512" height="512" alt=""> <img class="navicon1" src="../images/310869.png"  width="128" height="128" alt=""> <img class="navicon1" src="../images/bag.png"  width="512" height="512" alt=""> </div>
+  </div>
+  <!-- TemplateBeginEditable name="EditRegion1" -->
+
+
+  <div class="bannerpara1">
+    <div class="bannergradient"> <img class="banner1" src="../images/banner_image.png" alt> </div>
+    <div class="bannerpara">
+      <h1> GET THE RIGHT BOOKS<br>
+        FOR YOU;</h1>
+      <p class="bannerper">60%-70% off on All Books</p>
+    </div>
+  </div>
+
+<div class="content-wd content1">
+  <h2 class="aboutus"> ABOUT US</h2>
+  <div class="aboutbanner">
+    <div > <img class="aboutimg" src="../images/alex_north.png" alt> </div>
+    <div class="abouttext">
+      <h3>Hi there and welcome to my website.</h3>
+      <p>I&#8217;m Sreekanth the founder of story tales website i found this website to spread knowlege for our future generation i am one of the producers of novel transporting all around the world.I hope you enjoy our different types of brand and story</p>
+      <p>And watch out for our the Blu-Ray and DVD release of our new patterns of stoty and brand like romantic, thriller, fantasy,horror. Including childrens story and adult books according to our industry trends. </p>
+      <a class="aboutbutton" href="#">BROWSE OUR BOOKS</a> </div>
+  </div>
+  <div class="recommended">
+    <h2 class="aboutus"> RECOMMENDED</h2>
+  </div>
+</div>
+<img  class="recimg st-wrapper" src="../images/banner_novels.png" alt="" width="1366" height="444">
+<div class="content-wd">
+  <div class="totalcard">
+    <div class="allcard content-wd">
+      <div class="card1rec"> <img class="card1img" src="../images/cards/chetan-bhagat.png" alt>
+        <h3 class="card1para"> THE GIRL IN ROOM 105</h3>
+        <p class="card1point"> 5.0</p>
+        <div class="card1star"> <img src="../images/star.png" alt="" width="28" height="28"> <img src="../images/star.png" alt="" width="28" height="28"> <img src="../images/star.png" alt="" width="28" height="28"> <img src="../images/star.png" alt="" width="28" height="28"> <img src="../images/star.png" alt="" width="28" height="28"> </div>
+        <p class="card1paper"> paper black</p>
+        <img class="card1rupe" src="../images/rupee_icon.png" alt="">
+        <h3 class="card1rs"> 149.00</h3>
+        <h3 class="card1dele">Free Delivery</h3>
+      </div>
+    </div>
+    <div class="allcard content-wd">
+      <div class="card1rec"> <img class="card1img" src="../images/cards/The-Kite-Runner.png" alt>
+        <h3 class="card1para"> THE KITE RUNNER 105</h3>
+        <p class="card1point"> 4.7</p>
+        <div class="card1star"> <img src="../images/star.png" alt="" width="28" height="28"> <img src="../images/star.png" alt="" width="28" height="28"> <img src="../images/star.png" alt="" width="28" height="28"> <img src="../images/star.png" alt="" width="28" height="28"> <img src="../images/star.png" alt="" width="28" height="28"> </div>
+        <p class="card1paper"> hard black</p>
+        <img class="card1rupe" src="../images/rupee_icon.png" alt="">
+        <h3 class="card1rs"> 199.00</h3>
+        <h3 class="card1dele">250.00 Delivery</h3>
+      </div>
+    </div>
+    <div class="allcard content-wd">
+      <div class="card1rec"> <img class="card1img" src="../images/cards/the-others.png" alt>
+        <h3 class="card1para"> THE OTHERS</h3>
+        <p class="card1point"> 4.7</p>
+        <div class="card1star"> <img src="../images/star.png" alt="" width="28" height="28"> <img src="../images/star.png" alt="" width="28" height="28"> <img src="../images/star.png" alt="" width="28" height="28"> <img src="../images/star.png" alt="" width="28" height="28"> </div>
+        <p class="card1paper"> paper black</p>
+        <img class="card1rupe" src="../images/rupee_icon.png" alt="">
+        <h3 class="card1rs"> 249.00</h3>
+        <h3 class="card1dele">Free Delivery</h3>
+      </div>
+    </div>
+  </div>
+</div>
+<img class="recarrow" src="../images/arrow_left.png" alt=""> <img class="rearrow1" src="../images/arrow_right.png" alt="">
+<div class="youmayalso">
+  <div class="youmay">
+    <h2 class="aboutus"> You may also like</h2>
+  </div>
+</div>
+<div class="total2card content-wd">
+  <div class="content-wd">
+    <div class="youmayrec"> <img class="youmayimg" src="../images/cards/card_the_truth_in_our_lies.png" alt="">
+      <h3 class="youmaypara"> The truth in our lies</h3>
+      <div class="youmaystar"> <img src="../images/1040230_copy_14.png" alt=""> <img src="../images/1040230_copy_14.png" alt=""> <img src="../images/1040230_copy_14.png" alt=""> <img src="../images/1040230_copy_14.png" alt=""> </div>
+      <img class="card2rupee" src="../images/rupee_icon_copy.png" alt="">
+      <h3 class="card2rs">199.00</h3>
+    </div>
+  </div>
+  <div class="content-wd">
+    <div class="youmayrec"> <img class="youmayimg" src="../images/cards/card_the_shape_of_snakes.png" alt="">
+      <h3 class="youmaypara"> The shapes of snakes</h3>
+      <div class="youmaystar"> <img src="../images/1040230_copy_14.png" alt=""> <img src="../images/1040230_copy_14.png" alt=""> <img src="../images/1040230_copy_14.png" alt=""> <img src="../images/1040230_copy_14.png" alt=""> </div>
+      <img class="card2rupee" src="../images/rupee_icon_copy.png" alt="">
+      <h3 class="card2rs">199.00</h3>
+    </div>
+  </div>
+  <div class="content-wd">
+    <div class="youmayrec"> <img class="youmayimg" src="../images/cards/card_the_friend_of_the_family.png" alt="">
+      <h3 class="youmaypara"> A friend of the family</h3>
+      <div class="youmaystar"> <img src="../images/1040230_copy_14.png" alt=""> <img src="../images/1040230_copy_14.png" alt=""> <img src="../images/1040230_copy_14.png" alt=""> <img src="../images/1040230_copy_14.png" alt=""> <img src="../images/1040230_copy_14.png" alt=""> </div>
+      <img class="card2rupee" src="../images/rupee_icon_copy.png" alt="">
+      <h3 class="card2rs">199.00</h3>
+    </div>
+  </div>
+  <div class="content-wd">
+    <div class="youmayrec"> <img class="youmayimg" src="../images/cards/card_End_of_Lonliness.png" alt="">
+      <h3 class="youmaypara"> The end of loneliness</h3>
+      <div class="youmaystar"> <img src="../images/1040230_copy_14.png" alt=""> <img src="../images/1040230_copy_14.png" alt=""> <img src="../images/1040230_copy_14.png" alt=""> <img src="../images/1040230_copy_14.png" alt=""> </div>
+      <img class="card2rupee" src="../images/rupee_icon_copy.png " alt="">
+      <h3 class="card2rs">199.00</h3>
+    </div>
+  </div>
+</div>
+<div class="total3card content-wd">
+  <div class="content-wd">
+    <div class="youmayrec2"> <img class="youmayimg2" src="../images/cards/card_the_silent_patient.png" alt="">
+      <h3 class="youmaypara2"> The Silent Patient</h3>
+      <div class="youmaystar1"> <img src="../images/1040230_copy_14.png" alt=""> <img src="../images/1040230_copy_14.png" alt=""> <img src="../images/1040230_copy_14.png" alt=""> <img src="../images/1040230_copy_14.png" alt=""> </div>
+      <img class="card3rupee" src="../images/rupee_icon_copy.png" alt="">
+      <h3 class="card3rs">199.00</h3>
+    </div>
+  </div>
+  <div class="content-wd">
+    <div class="youmayrec2"> <img class="youmayimg2" src="../images/cards/card_trash_lands.png" alt="">
+      <h3 class="youmaypara2"> Trash Lands</h3>
+      <div class="youmaystar1"> <img src="../images/1040230_copy_14.png" alt=""> <img src="../images/1040230_copy_14.png" alt=""> <img src="../images/1040230_copy_14.png" alt=""> <img src="../images/1040230_copy_14.png" alt=""> </div>
+      <img class="card3rupee" src="../images/rupee_icon_copy.png" alt="">
+      <h3 class="card3rs">199.00</h3>
+    </div>
+  </div>
+  <div class="content-wd">
+    <div class="youmayrec2"> <img class="youmayimg2" src="../images/cards/card_the_orphan.png" alt="">
+      <h3 class="youmaypara2"> The Orphan</h3>
+      <div class="youmaystar1"> <img src="../images/1040230_copy_14.png" alt=""> <img src="../images/1040230_copy_14.png" alt=""> <img src="../images/1040230_copy_14.png" alt=""> <img src="../images/1040230_copy_14.png" alt=""> </div>
+      <img class="card3rupee" src="../images/rupee_icon_copy.png" alt="">
+      <h3 class="card3rs">199.00</h3>
+    </div>
+  </div>
+  <div class="content-wd">
+    <div class="youmayrec2"> <img class="youmayimg2" src="../images/cards/card_the_deadth_house.png" alt="">
+      <h3 class="youmaypara2"> The death house</h3>
+      <div class="youmaystar1"> <img src="../images/1040230_copy_14.png" alt=""> <img src="../images/1040230_copy_14.png" alt=""> <img src="../images/1040230_copy_14.png" alt=""> <img src="../images/1040230_copy_14.png" alt=""> </div>
+      <img class="card3rupee" src="../images/rupee_icon_copy.png" alt="">
+      <h3 class="card3rs">99.00</h3>
+    </div>
+  </div>
+</div>
+<a href="#" class="viewall"> VIEW ALL</a>
+	<!-- TemplateEndEditable -->
+<div class="footer ">
+  <div class="footerwrap content-wd">
+    <div class="footerpara">
+      <h3> Quick links</h3>
+      <ul class="footersent">
+        <li>Terms of service</li>
+        <li>privacy policy</li>
+        <li>Return policy</li>
+        <li>Request Book</li>
+        <li>Bulk purchase</li>
+        <li>Shipping details</li>
+      </ul>
+    </div>
+    <div class="footerpara">
+      <h3> Stay connect</h3>
+      <ul class="footersent">
+        <li>Join our STORY TIME BOOKS</li>
+        <li>by signing up our email</li>
+        <li>MEWS LETTER and assured</li>
+        <li>discount code for next purchase</li>
+        <li>and sales alert</li>
+      </ul>
+    </div>
+    <div style="display: flex; flex-direction: column; margin-right: 51px;">
+      <input type="search" placeholder="Email address" class="emailbox">
+      <button class="subscribebox">SUBSCRIBE</button>
+    </div>
+    <div class="footerpara">
+      <h3> Contact us</h3>
+      <ul class="footersent">
+        <li>Email:</li>
+        <li>STORY TIME@gmail.com</li>
+        <li>Whatsapp +91 8943925294</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footerend">
+    <div class="content-wd footerapp1"> <span>@copyrightstorytime 2022 </span>
+      <div class="footerapp "> <img src="../images/whatsapp.png" alt=""> <img src="../images/facebook.png" alt=""> <img src="../images/instagram_(1).png" alt=""> <img src="../images/twitter.png" alt=""> </div>
+    </div>
+  </div>
+</div>
+</div>
+</body>
+</html>

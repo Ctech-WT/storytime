@@ -382,4 +382,31 @@
 	font-size: 24.95px;
 	font-weight: 700;
 }
+.deals{
+	margin-left: 286px;
+	margin-top: -200px;
+	font-family: AcuminConcept;
+	color: #044988;
+	font-size: 60px;
+	font-weight: 700;
+}
+body{
+	
+	min-width: 1200px;
+}
+.bulkfooter{
+	color: #F2EDED;
+	text-decoration: none;
+}
+.privacyfooter{
+color: #F2EDED;
+	text-decoration: none;
+}
+.requestfooter{
+	color: #F2EDED;
+	text-decoration: none;
+}
+	
+	
+
 

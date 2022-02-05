@@ -160,7 +160,7 @@
     </div>
   </div>
 </div>
-<a href="#" class="viewall"> VIEW ALL</a>
+<a href="../deals-of-the-day.html" class="viewall"> VIEW ALL</a>
 	<!-- TemplateEndEditable -->
 <div class="footer ">
   <div class="footerwrap content-wd">
@@ -168,10 +168,10 @@
       <h3> Quick links</h3>
       <ul class="footersent">
         <li>Terms of service</li>
-        <li>privacy policy</li>
+		  <li><a class="privacyfooter" href="https://termify.io/">privacy policy</a></li>
         <li>Return policy</li>
-        <li>Request Book</li>
-        <li>Bulk purchase</li>
+        <li> <a class="requestfooter" href="https://kdp.amazon.com/en_US/help/topic/G201499380">Request Book </a></li>
+        <li><a class="bulkfooter" href="https://sell.amazon.in/grow-your-business/amazon-global-selling?ld=AZINSOANavDesktopFooter&ref=AZIN_Footer_V1&initialSessionID=262-7487069-7623620">Bulk purchase</a></li>
         <li>Shipping details</li>
       </ul>
     </div>
